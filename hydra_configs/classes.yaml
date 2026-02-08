@@ -1,0 +1,7 @@
+defaults:
+  - base_paths
+
+classes_file: ${repo_root}/conceptgraph/scannet200_classes.txt
+# classes_file: /home/kuwajerw/repos/new_conceptgraphs/concept-graphs/conceptgraph/scannet200_classes.txt
+bg_classes : ["wall", "ceiling", "floor"] # 여기 수정 원래 "floor" 있었음 #["wall", "ceiling", "floor"]
+skip_bg: !!bool False

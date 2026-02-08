@@ -1,0 +1,823 @@
+[2025-11-24 11:49:28,829][INFO][m:optional_rerun_wrapper][fn:set_use_rerun][ln:24] - rerun is installed. Using rerun for logging.
+[2025-11-24 11:49:28,912][INFO][m:optional_wandb_wrapper][fn:set_use_wandb][ln:111] - wandb functionality is disabled in the config. Not using wandb for logging.
+[2025-11-24 11:49:28,916][DEBUG][m:optional_wandb_wrapper][fn:method][ln:139] - Skipping optional wandb call to 'init' because wandb usage is disabled.
+[2025-11-24 11:49:29,232][INFO][m:factory][fn:create_model][ln:312] - Loaded ViT-H-14 model config.
+[2025-11-24 11:49:35,308][INFO][m:factory][fn:create_model][ln:399] - Loading pretrained ViT-H-14 weights (laion2b_s32b_b79k).
+[2025-11-24 11:49:42,266][DEBUG][m:PngImagePlugin][fn:call][ln:198] - STREAM b'IHDR' 16 13
+[2025-11-24 11:49:42,266][DEBUG][m:PngImagePlugin][fn:call][ln:198] - STREAM b'IDAT' 41 8192
+[2025-11-24 11:49:42,267][DEBUG][m:PngImagePlugin][fn:call][ln:198] - STREAM b'IHDR' 16 13
+[2025-11-24 11:49:42,267][DEBUG][m:PngImagePlugin][fn:call][ln:198] - STREAM b'IDAT' 41 8192
+[2025-11-24 11:49:42,275][DEBUG][m:Image][fn:close][ln:637] - Error closing: Operation on closed image
+[2025-11-24 11:49:44,131][DEBUG][m:vis][fn:annotate][ln:464] - Starting bounding box drawing process.
+[2025-11-24 11:49:44,132][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 1/34 drawn for class ID: 159, NAME: sofa chair 0.86
+[2025-11-24 11:49:44,132][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=0, g=196, b=255) at (68, 512, 511, 679)
+[2025-11-24 11:49:44,132][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 2/34 drawn for class ID: 164, NAME: stool 0.83
+[2025-11-24 11:49:44,132][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=83, g=0, b=135) at (705, 489, 899, 676)
+[2025-11-24 11:49:44,132][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 3/34 drawn for class ID: 125, NAME: pillow 0.80
+[2025-11-24 11:49:44,132][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=255, g=57, b=201) at (243, 579, 444, 678)
+[2025-11-24 11:49:44,132][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 4/34 drawn for class ID: 46, NAME: coffee kettle 0.73
+[2025-11-24 11:49:44,132][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=255, g=182, b=51) at (787, 216, 821, 262)
+[2025-11-24 11:49:44,132][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 5/34 drawn for class ID: 53, NAME: couch 0.73
+[2025-11-24 11:49:44,132][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=46, g=156, b=170) at (69, 511, 511, 679)
+[2025-11-24 11:49:44,132][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 6/34 drawn for class ID: 164, NAME: stool 0.72
+[2025-11-24 11:49:44,132][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=83, g=0, b=135) at (961, 551, 1200, 678)
+[2025-11-24 11:49:44,132][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 7/34 drawn for class ID: 92, NAME: lamp 0.64
+[2025-11-24 11:49:44,132][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=64, g=222, b=138) at (234, 285, 409, 441)
+[2025-11-24 11:49:44,132][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 8/34 drawn for class ID: 131, NAME: potted plant 0.64
+[2025-11-24 11:49:44,132][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=209, g=212, b=53) at (388, 434, 446, 498)
+[2025-11-24 11:49:44,132][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 9/34 drawn for class ID: 40, NAME: closet door 0.59
+[2025-11-24 11:49:44,132][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=255, g=151, b=202) at (511, 2, 585, 362)
+[2025-11-24 11:49:44,132][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 10/34 drawn for class ID: 198, NAME: window 0.54
+[2025-11-24 11:49:44,132][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=27, g=150, b=64) at (827, 42, 1040, 202)
+[2025-11-24 11:49:44,133][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 11/34 drawn for class ID: 174, NAME: tissue box 0.51
+[2025-11-24 11:49:44,133][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=76, g=251, b=18) at (816, 242, 858, 266)
+[2025-11-24 11:49:44,133][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 12/34 drawn for class ID: 132, NAME: power outlet 0.47
+[2025-11-24 11:49:44,133][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=76, g=251, b=18) at (414, 228, 441, 264)
+[2025-11-24 11:49:44,133][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 13/34 drawn for class ID: 70, NAME: end table 0.47
+[2025-11-24 11:49:44,133][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=148, g=207, b=26) at (417, 493, 556, 678)
+[2025-11-24 11:49:44,133][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 14/34 drawn for class ID: 48, NAME: coffee table 0.45
+[2025-11-24 11:49:44,133][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=76, g=251, b=18) at (314, 458, 468, 581)
+[2025-11-24 11:49:44,133][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 15/34 drawn for class ID: 99, NAME: light switch 0.44
+[2025-11-24 11:49:44,133][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=0, g=25, b=239) at (401, 151, 441, 191)
+[2025-11-24 11:49:44,133][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 16/34 drawn for class ID: 47, NAME: coffee maker 0.39
+[2025-11-24 11:49:44,133][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=209, g=212, b=53) at (786, 216, 821, 263)
+[2025-11-24 11:49:44,133][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 17/34 drawn for class ID: 128, NAME: plate 0.35
+[2025-11-24 11:49:44,133][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=255, g=161, b=160) at (924, 265, 994, 283)
+[2025-11-24 11:49:44,133][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 18/34 drawn for class ID: 146, NAME: shelf 0.30
+[2025-11-24 11:49:44,133][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=255, g=57, b=201) at (728, 242, 1088, 391)
+[2025-11-24 11:49:44,133][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 19/34 drawn for class ID: 29, NAME: cabinet 0.29
+[2025-11-24 11:49:44,133][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=64, g=222, b=138) at (726, 242, 1091, 391)
+[2025-11-24 11:49:44,133][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 20/34 drawn for class ID: 70, NAME: end table 0.29
+[2025-11-24 11:49:44,133][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=148, g=207, b=26) at (313, 460, 468, 579)
+[2025-11-24 11:49:44,133][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 21/34 drawn for class ID: 29, NAME: cabinet 0.28
+[2025-11-24 11:49:44,133][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=64, g=222, b=138) at (727, 241, 819, 360)
+[2025-11-24 11:49:44,133][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 22/34 drawn for class ID: 70, NAME: end table 0.28
+[2025-11-24 11:49:44,133][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=148, g=207, b=26) at (727, 241, 820, 361)
+[2025-11-24 11:49:44,133][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 23/34 drawn for class ID: 92, NAME: lamp 0.25
+[2025-11-24 11:49:44,133][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=64, g=222, b=138) at (234, 284, 410, 530)
+[2025-11-24 11:49:44,134][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 24/34 drawn for class ID: 67, NAME: dresser 0.23
+[2025-11-24 11:49:44,134][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=255, g=182, b=51) at (727, 241, 819, 360)
+[2025-11-24 11:49:44,134][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 25/34 drawn for class ID: 40, NAME: closet door 0.20
+[2025-11-24 11:49:44,134][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=255, g=151, b=202) at (455, 0, 586, 369)
+[2025-11-24 11:49:44,134][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 26/34 drawn for class ID: 173, NAME: telephone 0.20
+[2025-11-24 11:49:44,134][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=209, g=212, b=53) at (401, 149, 441, 190)
+[2025-11-24 11:49:44,134][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 27/34 drawn for class ID: 146, NAME: shelf 0.16
+[2025-11-24 11:49:44,134][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=255, g=57, b=201) at (727, 241, 820, 358)
+[2025-11-24 11:49:44,134][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 28/34 drawn for class ID: 191, NAME: wall 0.15
+[2025-11-24 11:49:44,134][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=255, g=161, b=160) at (0, 0, 505, 675)
+[2025-11-24 11:49:44,134][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 29/34 drawn for class ID: 130, NAME: poster 0.14
+[2025-11-24 11:49:44,134][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=255, g=182, b=51) at (0, 211, 120, 630)
+[2025-11-24 11:49:44,134][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 30/34 drawn for class ID: 191, NAME: wall 0.13
+[2025-11-24 11:49:44,134][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=255, g=161, b=160) at (580, 0, 1199, 392)
+[2025-11-24 11:49:44,134][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 31/34 drawn for class ID: 128, NAME: plate 0.12
+[2025-11-24 11:49:44,134][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=255, g=161, b=160) at (390, 461, 446, 499)
+[2025-11-24 11:49:44,134][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 32/34 drawn for class ID: 29, NAME: cabinet 0.12
+[2025-11-24 11:49:44,134][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=64, g=222, b=138) at (808, 269, 979, 388)
+[2025-11-24 11:49:44,134][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 33/34 drawn for class ID: 132, NAME: power outlet 0.12
+[2025-11-24 11:49:44,134][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=76, g=251, b=18) at (401, 149, 441, 191)
+[2025-11-24 11:49:44,134][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 34/34 drawn for class ID: 48, NAME: coffee table 0.11
+[2025-11-24 11:49:44,134][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=76, g=251, b=18) at (314, 459, 556, 667)
+[2025-11-24 11:49:44,134][DEBUG][m:vis][fn:annotate][ln:478] - Starting label drawing process.
+[2025-11-24 11:49:44,134][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'sofa chair 0.86': width=75, height=7
+[2025-11-24 11:49:44,134][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 1/34 with class ID: 159, NAME: 
+[2025-11-24 11:49:44,135][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (68, 501, 147, 512).
+[2025-11-24 11:49:44,135][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,135][DEBUG][m:vis][fn:annotate][ln:496] - Label 1/34 for class ID: 159, NAME: sofa chair 0.86
+[2025-11-24 11:49:44,135][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=0, g=196, b=255) at top_left corner
+[2025-11-24 11:49:44,135][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (68, 501, 147, 512)
+[2025-11-24 11:49:44,135][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'stool 0.83': width=49, height=7
+[2025-11-24 11:49:44,135][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 2/34 with class ID: 164, NAME: 
+[2025-11-24 11:49:44,135][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (705, 478, 758, 489).
+[2025-11-24 11:49:44,135][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,135][DEBUG][m:vis][fn:annotate][ln:496] - Label 2/34 for class ID: 164, NAME: stool 0.83
+[2025-11-24 11:49:44,135][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=83, g=0, b=135) at top_left corner
+[2025-11-24 11:49:44,135][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (705, 478, 758, 489)
+[2025-11-24 11:49:44,135][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'pillow 0.80': width=52, height=7
+[2025-11-24 11:49:44,135][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 3/34 with class ID: 125, NAME: 
+[2025-11-24 11:49:44,135][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (243, 568, 299, 579).
+[2025-11-24 11:49:44,135][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,135][DEBUG][m:vis][fn:annotate][ln:496] - Label 3/34 for class ID: 125, NAME: pillow 0.80
+[2025-11-24 11:49:44,135][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=255, g=57, b=201) at top_left corner
+[2025-11-24 11:49:44,135][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (243, 568, 299, 579)
+[2025-11-24 11:49:44,135][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'coffee kettle 0.73': width=86, height=7
+[2025-11-24 11:49:44,135][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 4/34 with class ID: 46, NAME: 
+[2025-11-24 11:49:44,135][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (787, 205, 877, 216).
+[2025-11-24 11:49:44,135][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,135][DEBUG][m:vis][fn:annotate][ln:496] - Label 4/34 for class ID: 46, NAME: coffee kettle 0.73
+[2025-11-24 11:49:44,135][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=255, g=182, b=51) at top_left corner
+[2025-11-24 11:49:44,135][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (787, 205, 877, 216)
+[2025-11-24 11:49:44,135][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'couch 0.73': width=55, height=7
+[2025-11-24 11:49:44,136][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 5/34 with class ID: 53, NAME: 
+[2025-11-24 11:49:44,136][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (69, 500, 128, 511).
+[2025-11-24 11:49:44,136][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,136][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 5/34 with class ID: 53, NAME: 
+[2025-11-24 11:49:44,136][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_right corner at (452, 500, 511, 511).
+[2025-11-24 11:49:44,136][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,136][DEBUG][m:vis][fn:annotate][ln:496] - Label 5/34 for class ID: 53, NAME: couch 0.73
+[2025-11-24 11:49:44,136][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=46, g=156, b=170) at top_right corner
+[2025-11-24 11:49:44,136][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (452, 500, 511, 511)
+[2025-11-24 11:49:44,136][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'stool 0.72': width=49, height=7
+[2025-11-24 11:49:44,136][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 6/34 with class ID: 164, NAME: 
+[2025-11-24 11:49:44,136][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (961, 540, 1014, 551).
+[2025-11-24 11:49:44,136][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,136][DEBUG][m:vis][fn:annotate][ln:496] - Label 6/34 for class ID: 164, NAME: stool 0.72
+[2025-11-24 11:49:44,136][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=83, g=0, b=135) at top_left corner
+[2025-11-24 11:49:44,136][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (961, 540, 1014, 551)
+[2025-11-24 11:49:44,136][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'lamp 0.64': width=50, height=7
+[2025-11-24 11:49:44,136][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 7/34 with class ID: 92, NAME: 
+[2025-11-24 11:49:44,136][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (234, 274, 288, 285).
+[2025-11-24 11:49:44,136][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,136][DEBUG][m:vis][fn:annotate][ln:496] - Label 7/34 for class ID: 92, NAME: lamp 0.64
+[2025-11-24 11:49:44,136][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=64, g=222, b=138) at top_left corner
+[2025-11-24 11:49:44,136][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (234, 274, 288, 285)
+[2025-11-24 11:49:44,136][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'potted plant 0.64': width=84, height=7
+[2025-11-24 11:49:44,136][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 8/34 with class ID: 131, NAME: 
+[2025-11-24 11:49:44,136][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (388, 423, 476, 434).
+[2025-11-24 11:49:44,136][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,136][DEBUG][m:vis][fn:annotate][ln:496] - Label 8/34 for class ID: 131, NAME: potted plant 0.64
+[2025-11-24 11:49:44,137][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=209, g=212, b=53) at top_left corner
+[2025-11-24 11:49:44,137][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (388, 423, 476, 434)
+[2025-11-24 11:49:44,137][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'closet door 0.59': width=80, height=7
+[2025-11-24 11:49:44,137][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 9/34 with class ID: 40, NAME: 
+[2025-11-24 11:49:44,137][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (511, 0, 595, 11).
+[2025-11-24 11:49:44,137][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,137][DEBUG][m:vis][fn:annotate][ln:496] - Label 9/34 for class ID: 40, NAME: closet door 0.59
+[2025-11-24 11:49:44,137][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=255, g=151, b=202) at top_left corner
+[2025-11-24 11:49:44,137][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (511, 0, 595, 11)
+[2025-11-24 11:49:44,137][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'window 0.54': width=59, height=7
+[2025-11-24 11:49:44,137][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 10/34 with class ID: 198, NAME: 
+[2025-11-24 11:49:44,137][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (827, 31, 890, 42).
+[2025-11-24 11:49:44,137][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,137][DEBUG][m:vis][fn:annotate][ln:496] - Label 10/34 for class ID: 198, NAME: window 0.54
+[2025-11-24 11:49:44,137][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=27, g=150, b=64) at top_left corner
+[2025-11-24 11:49:44,137][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (827, 31, 890, 42)
+[2025-11-24 11:49:44,137][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'tissue box 0.51': width=75, height=7
+[2025-11-24 11:49:44,137][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 11/34 with class ID: 174, NAME: 
+[2025-11-24 11:49:44,137][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (816, 231, 895, 242).
+[2025-11-24 11:49:44,137][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,137][DEBUG][m:vis][fn:annotate][ln:496] - Label 11/34 for class ID: 174, NAME: tissue box 0.51
+[2025-11-24 11:49:44,137][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=76, g=251, b=18) at top_left corner
+[2025-11-24 11:49:44,137][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (816, 231, 895, 242)
+[2025-11-24 11:49:44,137][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'power outlet 0.47': width=85, height=7
+[2025-11-24 11:49:44,137][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 12/34 with class ID: 132, NAME: 
+[2025-11-24 11:49:44,137][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (414, 217, 503, 228).
+[2025-11-24 11:49:44,137][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,137][DEBUG][m:vis][fn:annotate][ln:496] - Label 12/34 for class ID: 132, NAME: power outlet 0.47
+[2025-11-24 11:49:44,137][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=76, g=251, b=18) at top_left corner
+[2025-11-24 11:49:44,138][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (414, 217, 503, 228)
+[2025-11-24 11:49:44,138][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'end table 0.47': width=71, height=7
+[2025-11-24 11:49:44,138][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 13/34 with class ID: 70, NAME: 
+[2025-11-24 11:49:44,138][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (417, 482, 492, 493).
+[2025-11-24 11:49:44,138][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,138][DEBUG][m:vis][fn:annotate][ln:496] - Label 13/34 for class ID: 70, NAME: end table 0.47
+[2025-11-24 11:49:44,138][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=148, g=207, b=26) at top_left corner
+[2025-11-24 11:49:44,138][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (417, 482, 492, 493)
+[2025-11-24 11:49:44,138][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'coffee table 0.45': width=84, height=7
+[2025-11-24 11:49:44,138][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 14/34 with class ID: 48, NAME: 
+[2025-11-24 11:49:44,138][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (314, 447, 402, 458).
+[2025-11-24 11:49:44,138][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,138][DEBUG][m:vis][fn:annotate][ln:496] - Label 14/34 for class ID: 48, NAME: coffee table 0.45
+[2025-11-24 11:49:44,138][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=76, g=251, b=18) at top_left corner
+[2025-11-24 11:49:44,138][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (314, 447, 402, 458)
+[2025-11-24 11:49:44,138][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'light switch 0.44': width=80, height=7
+[2025-11-24 11:49:44,138][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 15/34 with class ID: 99, NAME: 
+[2025-11-24 11:49:44,138][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (401, 140, 485, 151).
+[2025-11-24 11:49:44,138][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,138][DEBUG][m:vis][fn:annotate][ln:496] - Label 15/34 for class ID: 99, NAME: light switch 0.44
+[2025-11-24 11:49:44,138][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=0, g=25, b=239) at top_left corner
+[2025-11-24 11:49:44,138][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (401, 140, 485, 151)
+[2025-11-24 11:49:44,138][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'coffee maker 0.39': width=90, height=7
+[2025-11-24 11:49:44,138][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 16/34 with class ID: 47, NAME: 
+[2025-11-24 11:49:44,138][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (786, 205, 880, 216).
+[2025-11-24 11:49:44,138][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,138][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 16/34 with class ID: 47, NAME: 
+[2025-11-24 11:49:44,138][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_right corner at (727, 205, 821, 216).
+[2025-11-24 11:49:44,138][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,139][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 16/34 with class ID: 47, NAME: 
+[2025-11-24 11:49:44,139][DEBUG][m:vis][fn:find_label_position][ln:445] - At bottom_right corner at (727, 263, 821, 274).
+[2025-11-24 11:49:44,139][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,139][DEBUG][m:vis][fn:annotate][ln:496] - Label 16/34 for class ID: 47, NAME: coffee maker 0.39
+[2025-11-24 11:49:44,139][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=209, g=212, b=53) at bottom_right corner
+[2025-11-24 11:49:44,139][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (727, 263, 821, 274)
+[2025-11-24 11:49:44,139][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'plate 0.35': width=50, height=7
+[2025-11-24 11:49:44,139][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 17/34 with class ID: 128, NAME: 
+[2025-11-24 11:49:44,139][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (924, 254, 978, 265).
+[2025-11-24 11:49:44,139][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,139][DEBUG][m:vis][fn:annotate][ln:496] - Label 17/34 for class ID: 128, NAME: plate 0.35
+[2025-11-24 11:49:44,139][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=255, g=161, b=160) at top_left corner
+[2025-11-24 11:49:44,139][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (924, 254, 978, 265)
+[2025-11-24 11:49:44,139][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'shelf 0.30': width=49, height=7
+[2025-11-24 11:49:44,139][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 18/34 with class ID: 146, NAME: 
+[2025-11-24 11:49:44,139][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (728, 231, 781, 242).
+[2025-11-24 11:49:44,139][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,139][DEBUG][m:vis][fn:annotate][ln:496] - Label 18/34 for class ID: 146, NAME: shelf 0.30
+[2025-11-24 11:49:44,139][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=255, g=57, b=201) at top_left corner
+[2025-11-24 11:49:44,139][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (728, 231, 781, 242)
+[2025-11-24 11:49:44,139][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'cabinet 0.29': width=61, height=7
+[2025-11-24 11:49:44,139][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 19/34 with class ID: 29, NAME: 
+[2025-11-24 11:49:44,139][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (726, 231, 791, 242).
+[2025-11-24 11:49:44,139][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,139][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 19/34 with class ID: 29, NAME: 
+[2025-11-24 11:49:44,139][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_right corner at (1026, 231, 1091, 242).
+[2025-11-24 11:49:44,139][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,139][DEBUG][m:vis][fn:annotate][ln:496] - Label 19/34 for class ID: 29, NAME: cabinet 0.29
+[2025-11-24 11:49:44,140][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=64, g=222, b=138) at top_right corner
+[2025-11-24 11:49:44,140][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (1026, 231, 1091, 242)
+[2025-11-24 11:49:44,140][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'end table 0.29': width=71, height=7
+[2025-11-24 11:49:44,140][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 20/34 with class ID: 70, NAME: 
+[2025-11-24 11:49:44,140][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (313, 449, 388, 460).
+[2025-11-24 11:49:44,140][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,140][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 20/34 with class ID: 70, NAME: 
+[2025-11-24 11:49:44,140][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_right corner at (393, 449, 468, 460).
+[2025-11-24 11:49:44,140][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,140][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 20/34 with class ID: 70, NAME: 
+[2025-11-24 11:49:44,140][DEBUG][m:vis][fn:find_label_position][ln:445] - At bottom_right corner at (393, 579, 468, 590).
+[2025-11-24 11:49:44,140][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,140][DEBUG][m:vis][fn:annotate][ln:496] - Label 20/34 for class ID: 70, NAME: end table 0.29
+[2025-11-24 11:49:44,140][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=148, g=207, b=26) at bottom_right corner
+[2025-11-24 11:49:44,140][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (393, 579, 468, 590)
+[2025-11-24 11:49:44,140][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'cabinet 0.28': width=61, height=7
+[2025-11-24 11:49:44,140][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 21/34 with class ID: 29, NAME: 
+[2025-11-24 11:49:44,140][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (727, 230, 792, 241).
+[2025-11-24 11:49:44,140][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,140][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 21/34 with class ID: 29, NAME: 
+[2025-11-24 11:49:44,140][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_right corner at (754, 230, 819, 241).
+[2025-11-24 11:49:44,140][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,140][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 21/34 with class ID: 29, NAME: 
+[2025-11-24 11:49:44,140][DEBUG][m:vis][fn:find_label_position][ln:445] - At bottom_right corner at (754, 360, 819, 371).
+[2025-11-24 11:49:44,140][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,140][DEBUG][m:vis][fn:annotate][ln:496] - Label 21/34 for class ID: 29, NAME: cabinet 0.28
+[2025-11-24 11:49:44,140][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=64, g=222, b=138) at bottom_right corner
+[2025-11-24 11:49:44,140][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (754, 360, 819, 371)
+[2025-11-24 11:49:44,140][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'end table 0.28': width=71, height=7
+[2025-11-24 11:49:44,140][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 22/34 with class ID: 70, NAME: 
+[2025-11-24 11:49:44,141][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (727, 230, 802, 241).
+[2025-11-24 11:49:44,141][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,141][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 22/34 with class ID: 70, NAME: 
+[2025-11-24 11:49:44,141][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_right corner at (745, 230, 820, 241).
+[2025-11-24 11:49:44,141][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,141][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 22/34 with class ID: 70, NAME: 
+[2025-11-24 11:49:44,141][DEBUG][m:vis][fn:find_label_position][ln:445] - At bottom_right corner at (745, 361, 820, 372).
+[2025-11-24 11:49:44,141][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,141][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 22/34 with class ID: 70, NAME: 
+[2025-11-24 11:49:44,141][DEBUG][m:vis][fn:find_label_position][ln:445] - At bottom_left corner at (727, 361, 802, 372).
+[2025-11-24 11:49:44,141][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,141][DEBUG][m:vis][fn:find_label_position][ln:451] - NO VIABLE POSITION for label 22/34 with class ID: 70, NAME: 
+[2025-11-24 11:49:44,141][DEBUG][m:vis][fn:annotate][ln:496] - Label 22/34 for class ID: 70, NAME: end table 0.28
+[2025-11-24 11:49:44,141][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=148, g=207, b=26) at bottom_left corner
+[2025-11-24 11:49:44,141][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (727, 361, 802, 372)
+[2025-11-24 11:49:44,141][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'lamp 0.25': width=50, height=7
+[2025-11-24 11:49:44,141][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 23/34 with class ID: 92, NAME: 
+[2025-11-24 11:49:44,141][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (234, 273, 288, 284).
+[2025-11-24 11:49:44,141][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,141][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 23/34 with class ID: 92, NAME: 
+[2025-11-24 11:49:44,141][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_right corner at (356, 273, 410, 284).
+[2025-11-24 11:49:44,141][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,141][DEBUG][m:vis][fn:annotate][ln:496] - Label 23/34 for class ID: 92, NAME: lamp 0.25
+[2025-11-24 11:49:44,141][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=64, g=222, b=138) at top_right corner
+[2025-11-24 11:49:44,141][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (356, 273, 410, 284)
+[2025-11-24 11:49:44,141][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'dresser 0.23': width=61, height=7
+[2025-11-24 11:49:44,141][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 24/34 with class ID: 67, NAME: 
+[2025-11-24 11:49:44,141][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (727, 230, 792, 241).
+[2025-11-24 11:49:44,141][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,141][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 24/34 with class ID: 67, NAME: 
+[2025-11-24 11:49:44,142][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_right corner at (754, 230, 819, 241).
+[2025-11-24 11:49:44,142][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,142][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 24/34 with class ID: 67, NAME: 
+[2025-11-24 11:49:44,142][DEBUG][m:vis][fn:find_label_position][ln:445] - At bottom_right corner at (754, 360, 819, 371).
+[2025-11-24 11:49:44,142][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,142][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 24/34 with class ID: 67, NAME: 
+[2025-11-24 11:49:44,142][DEBUG][m:vis][fn:find_label_position][ln:445] - At bottom_left corner at (727, 360, 792, 371).
+[2025-11-24 11:49:44,142][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,142][DEBUG][m:vis][fn:find_label_position][ln:451] - NO VIABLE POSITION for label 24/34 with class ID: 67, NAME: 
+[2025-11-24 11:49:44,142][DEBUG][m:vis][fn:annotate][ln:496] - Label 24/34 for class ID: 67, NAME: dresser 0.23
+[2025-11-24 11:49:44,142][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=255, g=182, b=51) at bottom_left corner
+[2025-11-24 11:49:44,142][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (727, 360, 792, 371)
+[2025-11-24 11:49:44,142][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'closet door 0.20': width=80, height=7
+[2025-11-24 11:49:44,142][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 25/34 with class ID: 40, NAME: 
+[2025-11-24 11:49:44,142][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (455, 0, 539, 11).
+[2025-11-24 11:49:44,142][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,142][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 25/34 with class ID: 40, NAME: 
+[2025-11-24 11:49:44,142][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_right corner at (502, 0, 586, 11).
+[2025-11-24 11:49:44,142][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,142][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 25/34 with class ID: 40, NAME: 
+[2025-11-24 11:49:44,142][DEBUG][m:vis][fn:find_label_position][ln:445] - At bottom_right corner at (502, 369, 586, 380).
+[2025-11-24 11:49:44,142][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,142][DEBUG][m:vis][fn:annotate][ln:496] - Label 25/34 for class ID: 40, NAME: closet door 0.20
+[2025-11-24 11:49:44,142][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=255, g=151, b=202) at bottom_right corner
+[2025-11-24 11:49:44,142][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (502, 369, 586, 380)
+[2025-11-24 11:49:44,142][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'telephone 0.20': width=72, height=7
+[2025-11-24 11:49:44,142][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 26/34 with class ID: 173, NAME: 
+[2025-11-24 11:49:44,142][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (401, 138, 477, 149).
+[2025-11-24 11:49:44,142][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,142][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 26/34 with class ID: 173, NAME: 
+[2025-11-24 11:49:44,143][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_right corner at (365, 138, 441, 149).
+[2025-11-24 11:49:44,143][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,143][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 26/34 with class ID: 173, NAME: 
+[2025-11-24 11:49:44,143][DEBUG][m:vis][fn:find_label_position][ln:445] - At bottom_right corner at (365, 190, 441, 201).
+[2025-11-24 11:49:44,143][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,143][DEBUG][m:vis][fn:annotate][ln:496] - Label 26/34 for class ID: 173, NAME: telephone 0.20
+[2025-11-24 11:49:44,143][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=209, g=212, b=53) at bottom_right corner
+[2025-11-24 11:49:44,143][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (365, 190, 441, 201)
+[2025-11-24 11:49:44,143][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'shelf 0.16': width=49, height=7
+[2025-11-24 11:49:44,143][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 27/34 with class ID: 146, NAME: 
+[2025-11-24 11:49:44,143][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (727, 230, 780, 241).
+[2025-11-24 11:49:44,143][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,143][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 27/34 with class ID: 146, NAME: 
+[2025-11-24 11:49:44,143][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_right corner at (767, 230, 820, 241).
+[2025-11-24 11:49:44,143][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,143][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 27/34 with class ID: 146, NAME: 
+[2025-11-24 11:49:44,143][DEBUG][m:vis][fn:find_label_position][ln:445] - At bottom_right corner at (767, 358, 820, 369).
+[2025-11-24 11:49:44,143][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,143][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 27/34 with class ID: 146, NAME: 
+[2025-11-24 11:49:44,143][DEBUG][m:vis][fn:find_label_position][ln:445] - At bottom_left corner at (727, 358, 780, 369).
+[2025-11-24 11:49:44,143][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,143][DEBUG][m:vis][fn:find_label_position][ln:451] - NO VIABLE POSITION for label 27/34 with class ID: 146, NAME: 
+[2025-11-24 11:49:44,143][DEBUG][m:vis][fn:annotate][ln:496] - Label 27/34 for class ID: 146, NAME: shelf 0.16
+[2025-11-24 11:49:44,143][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=255, g=57, b=201) at bottom_left corner
+[2025-11-24 11:49:44,143][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (727, 358, 780, 369)
+[2025-11-24 11:49:44,143][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'wall 0.15': width=44, height=7
+[2025-11-24 11:49:44,143][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 28/34 with class ID: 191, NAME: 
+[2025-11-24 11:49:44,143][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (0, 0, 48, 11).
+[2025-11-24 11:49:44,144][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,144][DEBUG][m:vis][fn:annotate][ln:496] - Label 28/34 for class ID: 191, NAME: wall 0.15
+[2025-11-24 11:49:44,144][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=255, g=161, b=160) at top_left corner
+[2025-11-24 11:49:44,144][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (0, 0, 48, 11)
+[2025-11-24 11:49:44,144][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'poster 0.14': width=56, height=7
+[2025-11-24 11:49:44,144][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 29/34 with class ID: 130, NAME: 
+[2025-11-24 11:49:44,144][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (0, 200, 60, 211).
+[2025-11-24 11:49:44,144][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,144][DEBUG][m:vis][fn:annotate][ln:496] - Label 29/34 for class ID: 130, NAME: poster 0.14
+[2025-11-24 11:49:44,144][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=255, g=182, b=51) at top_left corner
+[2025-11-24 11:49:44,144][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (0, 200, 60, 211)
+[2025-11-24 11:49:44,144][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'wall 0.13': width=44, height=7
+[2025-11-24 11:49:44,144][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 30/34 with class ID: 191, NAME: 
+[2025-11-24 11:49:44,144][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (580, 0, 628, 11).
+[2025-11-24 11:49:44,144][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,144][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 30/34 with class ID: 191, NAME: 
+[2025-11-24 11:49:44,144][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_right corner at (1151, 0, 1199, 11).
+[2025-11-24 11:49:44,144][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,144][DEBUG][m:vis][fn:annotate][ln:496] - Label 30/34 for class ID: 191, NAME: wall 0.13
+[2025-11-24 11:49:44,144][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=255, g=161, b=160) at top_right corner
+[2025-11-24 11:49:44,144][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (1151, 0, 1199, 11)
+[2025-11-24 11:49:44,144][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'plate 0.12': width=50, height=7
+[2025-11-24 11:49:44,144][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 31/34 with class ID: 128, NAME: 
+[2025-11-24 11:49:44,144][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (390, 450, 444, 461).
+[2025-11-24 11:49:44,144][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,144][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 31/34 with class ID: 128, NAME: 
+[2025-11-24 11:49:44,144][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_right corner at (392, 450, 446, 461).
+[2025-11-24 11:49:44,144][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,145][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 31/34 with class ID: 128, NAME: 
+[2025-11-24 11:49:44,145][DEBUG][m:vis][fn:find_label_position][ln:445] - At bottom_right corner at (392, 499, 446, 510).
+[2025-11-24 11:49:44,145][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,145][DEBUG][m:vis][fn:annotate][ln:496] - Label 31/34 for class ID: 128, NAME: plate 0.12
+[2025-11-24 11:49:44,145][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=255, g=161, b=160) at bottom_right corner
+[2025-11-24 11:49:44,145][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (392, 499, 446, 510)
+[2025-11-24 11:49:44,145][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'cabinet 0.12': width=61, height=7
+[2025-11-24 11:49:44,145][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 32/34 with class ID: 29, NAME: 
+[2025-11-24 11:49:44,145][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (808, 258, 873, 269).
+[2025-11-24 11:49:44,145][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,145][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 32/34 with class ID: 29, NAME: 
+[2025-11-24 11:49:44,145][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_right corner at (914, 258, 979, 269).
+[2025-11-24 11:49:44,145][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,145][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 32/34 with class ID: 29, NAME: 
+[2025-11-24 11:49:44,145][DEBUG][m:vis][fn:find_label_position][ln:445] - At bottom_right corner at (914, 388, 979, 399).
+[2025-11-24 11:49:44,145][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,145][DEBUG][m:vis][fn:annotate][ln:496] - Label 32/34 for class ID: 29, NAME: cabinet 0.12
+[2025-11-24 11:49:44,145][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=64, g=222, b=138) at bottom_right corner
+[2025-11-24 11:49:44,145][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (914, 388, 979, 399)
+[2025-11-24 11:49:44,145][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'power outlet 0.12': width=85, height=7
+[2025-11-24 11:49:44,145][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 33/34 with class ID: 132, NAME: 
+[2025-11-24 11:49:44,145][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (401, 138, 490, 149).
+[2025-11-24 11:49:44,145][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,145][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 33/34 with class ID: 132, NAME: 
+[2025-11-24 11:49:44,145][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_right corner at (352, 138, 441, 149).
+[2025-11-24 11:49:44,145][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,145][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 33/34 with class ID: 132, NAME: 
+[2025-11-24 11:49:44,145][DEBUG][m:vis][fn:find_label_position][ln:445] - At bottom_right corner at (352, 191, 441, 202).
+[2025-11-24 11:49:44,145][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,145][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 33/34 with class ID: 132, NAME: 
+[2025-11-24 11:49:44,146][DEBUG][m:vis][fn:find_label_position][ln:445] - At bottom_left corner at (401, 191, 490, 202).
+[2025-11-24 11:49:44,146][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,146][DEBUG][m:vis][fn:find_label_position][ln:451] - NO VIABLE POSITION for label 33/34 with class ID: 132, NAME: 
+[2025-11-24 11:49:44,146][DEBUG][m:vis][fn:annotate][ln:496] - Label 33/34 for class ID: 132, NAME: power outlet 0.12
+[2025-11-24 11:49:44,146][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=76, g=251, b=18) at bottom_left corner
+[2025-11-24 11:49:44,146][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (401, 191, 490, 202)
+[2025-11-24 11:49:44,146][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'coffee table 0.11': width=84, height=7
+[2025-11-24 11:49:44,146][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 34/34 with class ID: 48, NAME: 
+[2025-11-24 11:49:44,146][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (314, 448, 402, 459).
+[2025-11-24 11:49:44,146][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,146][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 34/34 with class ID: 48, NAME: 
+[2025-11-24 11:49:44,146][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_right corner at (468, 448, 556, 459).
+[2025-11-24 11:49:44,146][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,146][DEBUG][m:vis][fn:annotate][ln:496] - Label 34/34 for class ID: 48, NAME: coffee table 0.11
+[2025-11-24 11:49:44,146][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=76, g=251, b=18) at top_right corner
+[2025-11-24 11:49:44,146][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (468, 448, 556, 459)
+[2025-11-24 11:49:44,194][DEBUG][m:vis][fn:annotate][ln:464] - Starting bounding box drawing process.
+[2025-11-24 11:49:44,194][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 1/34 drawn for class ID: 159, NAME: sofa chair 0.86
+[2025-11-24 11:49:44,194][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=0, g=196, b=255) at (68, 512, 511, 679)
+[2025-11-24 11:49:44,194][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 2/34 drawn for class ID: 164, NAME: stool 0.83
+[2025-11-24 11:49:44,194][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=83, g=0, b=135) at (705, 489, 899, 676)
+[2025-11-24 11:49:44,194][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 3/34 drawn for class ID: 125, NAME: pillow 0.80
+[2025-11-24 11:49:44,194][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=255, g=57, b=201) at (243, 579, 444, 678)
+[2025-11-24 11:49:44,194][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 4/34 drawn for class ID: 46, NAME: coffee kettle 0.73
+[2025-11-24 11:49:44,194][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=255, g=182, b=51) at (787, 216, 821, 262)
+[2025-11-24 11:49:44,194][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 5/34 drawn for class ID: 53, NAME: couch 0.73
+[2025-11-24 11:49:44,194][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=46, g=156, b=170) at (69, 511, 511, 679)
+[2025-11-24 11:49:44,194][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 6/34 drawn for class ID: 164, NAME: stool 0.72
+[2025-11-24 11:49:44,194][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=83, g=0, b=135) at (961, 551, 1200, 678)
+[2025-11-24 11:49:44,194][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 7/34 drawn for class ID: 92, NAME: lamp 0.64
+[2025-11-24 11:49:44,194][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=64, g=222, b=138) at (234, 285, 409, 441)
+[2025-11-24 11:49:44,194][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 8/34 drawn for class ID: 131, NAME: potted plant 0.64
+[2025-11-24 11:49:44,194][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=209, g=212, b=53) at (388, 434, 446, 498)
+[2025-11-24 11:49:44,194][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 9/34 drawn for class ID: 40, NAME: closet door 0.59
+[2025-11-24 11:49:44,194][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=255, g=151, b=202) at (511, 2, 585, 362)
+[2025-11-24 11:49:44,194][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 10/34 drawn for class ID: 198, NAME: window 0.54
+[2025-11-24 11:49:44,195][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=27, g=150, b=64) at (827, 42, 1040, 202)
+[2025-11-24 11:49:44,195][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 11/34 drawn for class ID: 174, NAME: tissue box 0.51
+[2025-11-24 11:49:44,195][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=76, g=251, b=18) at (816, 242, 858, 266)
+[2025-11-24 11:49:44,195][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 12/34 drawn for class ID: 132, NAME: power outlet 0.47
+[2025-11-24 11:49:44,195][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=76, g=251, b=18) at (414, 228, 441, 264)
+[2025-11-24 11:49:44,195][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 13/34 drawn for class ID: 70, NAME: end table 0.47
+[2025-11-24 11:49:44,195][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=148, g=207, b=26) at (417, 493, 556, 678)
+[2025-11-24 11:49:44,195][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 14/34 drawn for class ID: 48, NAME: coffee table 0.45
+[2025-11-24 11:49:44,195][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=76, g=251, b=18) at (314, 458, 468, 581)
+[2025-11-24 11:49:44,195][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 15/34 drawn for class ID: 99, NAME: light switch 0.44
+[2025-11-24 11:49:44,195][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=0, g=25, b=239) at (401, 151, 441, 191)
+[2025-11-24 11:49:44,195][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 16/34 drawn for class ID: 47, NAME: coffee maker 0.39
+[2025-11-24 11:49:44,195][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=209, g=212, b=53) at (786, 216, 821, 263)
+[2025-11-24 11:49:44,195][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 17/34 drawn for class ID: 128, NAME: plate 0.35
+[2025-11-24 11:49:44,195][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=255, g=161, b=160) at (924, 265, 994, 283)
+[2025-11-24 11:49:44,195][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 18/34 drawn for class ID: 146, NAME: shelf 0.30
+[2025-11-24 11:49:44,195][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=255, g=57, b=201) at (728, 242, 1088, 391)
+[2025-11-24 11:49:44,195][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 19/34 drawn for class ID: 29, NAME: cabinet 0.29
+[2025-11-24 11:49:44,195][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=64, g=222, b=138) at (726, 242, 1091, 391)
+[2025-11-24 11:49:44,195][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 20/34 drawn for class ID: 70, NAME: end table 0.29
+[2025-11-24 11:49:44,195][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=148, g=207, b=26) at (313, 460, 468, 579)
+[2025-11-24 11:49:44,195][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 21/34 drawn for class ID: 29, NAME: cabinet 0.28
+[2025-11-24 11:49:44,195][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=64, g=222, b=138) at (727, 241, 819, 360)
+[2025-11-24 11:49:44,195][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 22/34 drawn for class ID: 70, NAME: end table 0.28
+[2025-11-24 11:49:44,195][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=148, g=207, b=26) at (727, 241, 820, 361)
+[2025-11-24 11:49:44,195][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 23/34 drawn for class ID: 92, NAME: lamp 0.25
+[2025-11-24 11:49:44,196][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=64, g=222, b=138) at (234, 284, 410, 530)
+[2025-11-24 11:49:44,196][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 24/34 drawn for class ID: 67, NAME: dresser 0.23
+[2025-11-24 11:49:44,196][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=255, g=182, b=51) at (727, 241, 819, 360)
+[2025-11-24 11:49:44,196][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 25/34 drawn for class ID: 40, NAME: closet door 0.20
+[2025-11-24 11:49:44,196][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=255, g=151, b=202) at (455, 0, 586, 369)
+[2025-11-24 11:49:44,196][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 26/34 drawn for class ID: 173, NAME: telephone 0.20
+[2025-11-24 11:49:44,196][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=209, g=212, b=53) at (401, 149, 441, 190)
+[2025-11-24 11:49:44,196][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 27/34 drawn for class ID: 146, NAME: shelf 0.16
+[2025-11-24 11:49:44,196][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=255, g=57, b=201) at (727, 241, 820, 358)
+[2025-11-24 11:49:44,196][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 28/34 drawn for class ID: 191, NAME: wall 0.15
+[2025-11-24 11:49:44,196][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=255, g=161, b=160) at (0, 0, 505, 675)
+[2025-11-24 11:49:44,196][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 29/34 drawn for class ID: 130, NAME: poster 0.14
+[2025-11-24 11:49:44,196][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=255, g=182, b=51) at (0, 211, 120, 630)
+[2025-11-24 11:49:44,196][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 30/34 drawn for class ID: 191, NAME: wall 0.13
+[2025-11-24 11:49:44,196][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=255, g=161, b=160) at (580, 0, 1199, 392)
+[2025-11-24 11:49:44,196][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 31/34 drawn for class ID: 128, NAME: plate 0.12
+[2025-11-24 11:49:44,196][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=255, g=161, b=160) at (390, 461, 446, 499)
+[2025-11-24 11:49:44,196][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 32/34 drawn for class ID: 29, NAME: cabinet 0.12
+[2025-11-24 11:49:44,196][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=64, g=222, b=138) at (808, 269, 979, 388)
+[2025-11-24 11:49:44,196][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 33/34 drawn for class ID: 132, NAME: power outlet 0.12
+[2025-11-24 11:49:44,196][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=76, g=251, b=18) at (401, 149, 441, 191)
+[2025-11-24 11:49:44,196][DEBUG][m:vis][fn:annotate][ln:472] - Bounding box 34/34 drawn for class ID: 48, NAME: coffee table 0.11
+[2025-11-24 11:49:44,196][DEBUG][m:vis][fn:annotate][ln:473] - with color Color(r=76, g=251, b=18) at (314, 459, 556, 667)
+[2025-11-24 11:49:44,196][DEBUG][m:vis][fn:annotate][ln:478] - Starting label drawing process.
+[2025-11-24 11:49:44,197][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'sofa chair 0.86': width=75, height=7
+[2025-11-24 11:49:44,197][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 1/34 with class ID: 159, NAME: 
+[2025-11-24 11:49:44,197][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (68, 501, 147, 512).
+[2025-11-24 11:49:44,197][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,197][DEBUG][m:vis][fn:annotate][ln:496] - Label 1/34 for class ID: 159, NAME: sofa chair 0.86
+[2025-11-24 11:49:44,197][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=0, g=196, b=255) at top_left corner
+[2025-11-24 11:49:44,197][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (68, 501, 147, 512)
+[2025-11-24 11:49:44,197][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'stool 0.83': width=49, height=7
+[2025-11-24 11:49:44,197][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 2/34 with class ID: 164, NAME: 
+[2025-11-24 11:49:44,197][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (705, 478, 758, 489).
+[2025-11-24 11:49:44,197][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,197][DEBUG][m:vis][fn:annotate][ln:496] - Label 2/34 for class ID: 164, NAME: stool 0.83
+[2025-11-24 11:49:44,197][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=83, g=0, b=135) at top_left corner
+[2025-11-24 11:49:44,197][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (705, 478, 758, 489)
+[2025-11-24 11:49:44,197][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'pillow 0.80': width=52, height=7
+[2025-11-24 11:49:44,197][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 3/34 with class ID: 125, NAME: 
+[2025-11-24 11:49:44,197][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (243, 568, 299, 579).
+[2025-11-24 11:49:44,197][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,197][DEBUG][m:vis][fn:annotate][ln:496] - Label 3/34 for class ID: 125, NAME: pillow 0.80
+[2025-11-24 11:49:44,197][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=255, g=57, b=201) at top_left corner
+[2025-11-24 11:49:44,197][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (243, 568, 299, 579)
+[2025-11-24 11:49:44,197][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'coffee kettle 0.73': width=86, height=7
+[2025-11-24 11:49:44,197][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 4/34 with class ID: 46, NAME: 
+[2025-11-24 11:49:44,197][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (787, 205, 877, 216).
+[2025-11-24 11:49:44,197][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,197][DEBUG][m:vis][fn:annotate][ln:496] - Label 4/34 for class ID: 46, NAME: coffee kettle 0.73
+[2025-11-24 11:49:44,198][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=255, g=182, b=51) at top_left corner
+[2025-11-24 11:49:44,198][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (787, 205, 877, 216)
+[2025-11-24 11:49:44,198][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'couch 0.73': width=55, height=7
+[2025-11-24 11:49:44,198][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 5/34 with class ID: 53, NAME: 
+[2025-11-24 11:49:44,198][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (69, 500, 128, 511).
+[2025-11-24 11:49:44,198][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,198][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 5/34 with class ID: 53, NAME: 
+[2025-11-24 11:49:44,198][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_right corner at (452, 500, 511, 511).
+[2025-11-24 11:49:44,198][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,198][DEBUG][m:vis][fn:annotate][ln:496] - Label 5/34 for class ID: 53, NAME: couch 0.73
+[2025-11-24 11:49:44,198][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=46, g=156, b=170) at top_right corner
+[2025-11-24 11:49:44,198][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (452, 500, 511, 511)
+[2025-11-24 11:49:44,198][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'stool 0.72': width=49, height=7
+[2025-11-24 11:49:44,198][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 6/34 with class ID: 164, NAME: 
+[2025-11-24 11:49:44,198][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (961, 540, 1014, 551).
+[2025-11-24 11:49:44,198][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,198][DEBUG][m:vis][fn:annotate][ln:496] - Label 6/34 for class ID: 164, NAME: stool 0.72
+[2025-11-24 11:49:44,198][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=83, g=0, b=135) at top_left corner
+[2025-11-24 11:49:44,198][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (961, 540, 1014, 551)
+[2025-11-24 11:49:44,198][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'lamp 0.64': width=50, height=7
+[2025-11-24 11:49:44,198][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 7/34 with class ID: 92, NAME: 
+[2025-11-24 11:49:44,198][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (234, 274, 288, 285).
+[2025-11-24 11:49:44,198][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,198][DEBUG][m:vis][fn:annotate][ln:496] - Label 7/34 for class ID: 92, NAME: lamp 0.64
+[2025-11-24 11:49:44,198][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=64, g=222, b=138) at top_left corner
+[2025-11-24 11:49:44,198][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (234, 274, 288, 285)
+[2025-11-24 11:49:44,198][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'potted plant 0.64': width=84, height=7
+[2025-11-24 11:49:44,198][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 8/34 with class ID: 131, NAME: 
+[2025-11-24 11:49:44,198][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (388, 423, 476, 434).
+[2025-11-24 11:49:44,199][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,199][DEBUG][m:vis][fn:annotate][ln:496] - Label 8/34 for class ID: 131, NAME: potted plant 0.64
+[2025-11-24 11:49:44,199][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=209, g=212, b=53) at top_left corner
+[2025-11-24 11:49:44,199][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (388, 423, 476, 434)
+[2025-11-24 11:49:44,199][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'closet door 0.59': width=80, height=7
+[2025-11-24 11:49:44,199][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 9/34 with class ID: 40, NAME: 
+[2025-11-24 11:49:44,199][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (511, 0, 595, 11).
+[2025-11-24 11:49:44,199][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,199][DEBUG][m:vis][fn:annotate][ln:496] - Label 9/34 for class ID: 40, NAME: closet door 0.59
+[2025-11-24 11:49:44,199][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=255, g=151, b=202) at top_left corner
+[2025-11-24 11:49:44,199][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (511, 0, 595, 11)
+[2025-11-24 11:49:44,199][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'window 0.54': width=59, height=7
+[2025-11-24 11:49:44,199][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 10/34 with class ID: 198, NAME: 
+[2025-11-24 11:49:44,199][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (827, 31, 890, 42).
+[2025-11-24 11:49:44,199][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,199][DEBUG][m:vis][fn:annotate][ln:496] - Label 10/34 for class ID: 198, NAME: window 0.54
+[2025-11-24 11:49:44,199][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=27, g=150, b=64) at top_left corner
+[2025-11-24 11:49:44,199][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (827, 31, 890, 42)
+[2025-11-24 11:49:44,199][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'tissue box 0.51': width=75, height=7
+[2025-11-24 11:49:44,199][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 11/34 with class ID: 174, NAME: 
+[2025-11-24 11:49:44,199][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (816, 231, 895, 242).
+[2025-11-24 11:49:44,199][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,199][DEBUG][m:vis][fn:annotate][ln:496] - Label 11/34 for class ID: 174, NAME: tissue box 0.51
+[2025-11-24 11:49:44,199][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=76, g=251, b=18) at top_left corner
+[2025-11-24 11:49:44,199][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (816, 231, 895, 242)
+[2025-11-24 11:49:44,199][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'power outlet 0.47': width=85, height=7
+[2025-11-24 11:49:44,199][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 12/34 with class ID: 132, NAME: 
+[2025-11-24 11:49:44,199][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (414, 217, 503, 228).
+[2025-11-24 11:49:44,200][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,200][DEBUG][m:vis][fn:annotate][ln:496] - Label 12/34 for class ID: 132, NAME: power outlet 0.47
+[2025-11-24 11:49:44,200][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=76, g=251, b=18) at top_left corner
+[2025-11-24 11:49:44,200][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (414, 217, 503, 228)
+[2025-11-24 11:49:44,200][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'end table 0.47': width=71, height=7
+[2025-11-24 11:49:44,200][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 13/34 with class ID: 70, NAME: 
+[2025-11-24 11:49:44,200][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (417, 482, 492, 493).
+[2025-11-24 11:49:44,200][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,200][DEBUG][m:vis][fn:annotate][ln:496] - Label 13/34 for class ID: 70, NAME: end table 0.47
+[2025-11-24 11:49:44,200][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=148, g=207, b=26) at top_left corner
+[2025-11-24 11:49:44,200][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (417, 482, 492, 493)
+[2025-11-24 11:49:44,200][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'coffee table 0.45': width=84, height=7
+[2025-11-24 11:49:44,200][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 14/34 with class ID: 48, NAME: 
+[2025-11-24 11:49:44,200][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (314, 447, 402, 458).
+[2025-11-24 11:49:44,200][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,200][DEBUG][m:vis][fn:annotate][ln:496] - Label 14/34 for class ID: 48, NAME: coffee table 0.45
+[2025-11-24 11:49:44,200][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=76, g=251, b=18) at top_left corner
+[2025-11-24 11:49:44,200][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (314, 447, 402, 458)
+[2025-11-24 11:49:44,200][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'light switch 0.44': width=80, height=7
+[2025-11-24 11:49:44,200][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 15/34 with class ID: 99, NAME: 
+[2025-11-24 11:49:44,200][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (401, 140, 485, 151).
+[2025-11-24 11:49:44,200][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,200][DEBUG][m:vis][fn:annotate][ln:496] - Label 15/34 for class ID: 99, NAME: light switch 0.44
+[2025-11-24 11:49:44,200][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=0, g=25, b=239) at top_left corner
+[2025-11-24 11:49:44,200][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (401, 140, 485, 151)
+[2025-11-24 11:49:44,200][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'coffee maker 0.39': width=90, height=7
+[2025-11-24 11:49:44,200][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 16/34 with class ID: 47, NAME: 
+[2025-11-24 11:49:44,200][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (786, 205, 880, 216).
+[2025-11-24 11:49:44,201][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,201][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 16/34 with class ID: 47, NAME: 
+[2025-11-24 11:49:44,201][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_right corner at (727, 205, 821, 216).
+[2025-11-24 11:49:44,201][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,201][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 16/34 with class ID: 47, NAME: 
+[2025-11-24 11:49:44,201][DEBUG][m:vis][fn:find_label_position][ln:445] - At bottom_right corner at (727, 263, 821, 274).
+[2025-11-24 11:49:44,201][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,201][DEBUG][m:vis][fn:annotate][ln:496] - Label 16/34 for class ID: 47, NAME: coffee maker 0.39
+[2025-11-24 11:49:44,201][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=209, g=212, b=53) at bottom_right corner
+[2025-11-24 11:49:44,201][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (727, 263, 821, 274)
+[2025-11-24 11:49:44,201][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'plate 0.35': width=50, height=7
+[2025-11-24 11:49:44,201][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 17/34 with class ID: 128, NAME: 
+[2025-11-24 11:49:44,201][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (924, 254, 978, 265).
+[2025-11-24 11:49:44,201][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,201][DEBUG][m:vis][fn:annotate][ln:496] - Label 17/34 for class ID: 128, NAME: plate 0.35
+[2025-11-24 11:49:44,201][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=255, g=161, b=160) at top_left corner
+[2025-11-24 11:49:44,201][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (924, 254, 978, 265)
+[2025-11-24 11:49:44,201][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'shelf 0.30': width=49, height=7
+[2025-11-24 11:49:44,201][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 18/34 with class ID: 146, NAME: 
+[2025-11-24 11:49:44,201][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (728, 231, 781, 242).
+[2025-11-24 11:49:44,201][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,201][DEBUG][m:vis][fn:annotate][ln:496] - Label 18/34 for class ID: 146, NAME: shelf 0.30
+[2025-11-24 11:49:44,201][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=255, g=57, b=201) at top_left corner
+[2025-11-24 11:49:44,201][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (728, 231, 781, 242)
+[2025-11-24 11:49:44,201][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'cabinet 0.29': width=61, height=7
+[2025-11-24 11:49:44,201][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 19/34 with class ID: 29, NAME: 
+[2025-11-24 11:49:44,201][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (726, 231, 791, 242).
+[2025-11-24 11:49:44,201][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,201][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 19/34 with class ID: 29, NAME: 
+[2025-11-24 11:49:44,201][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_right corner at (1026, 231, 1091, 242).
+[2025-11-24 11:49:44,202][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,202][DEBUG][m:vis][fn:annotate][ln:496] - Label 19/34 for class ID: 29, NAME: cabinet 0.29
+[2025-11-24 11:49:44,202][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=64, g=222, b=138) at top_right corner
+[2025-11-24 11:49:44,202][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (1026, 231, 1091, 242)
+[2025-11-24 11:49:44,202][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'end table 0.29': width=71, height=7
+[2025-11-24 11:49:44,202][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 20/34 with class ID: 70, NAME: 
+[2025-11-24 11:49:44,202][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (313, 449, 388, 460).
+[2025-11-24 11:49:44,202][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,202][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 20/34 with class ID: 70, NAME: 
+[2025-11-24 11:49:44,202][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_right corner at (393, 449, 468, 460).
+[2025-11-24 11:49:44,202][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,202][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 20/34 with class ID: 70, NAME: 
+[2025-11-24 11:49:44,202][DEBUG][m:vis][fn:find_label_position][ln:445] - At bottom_right corner at (393, 579, 468, 590).
+[2025-11-24 11:49:44,202][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,202][DEBUG][m:vis][fn:annotate][ln:496] - Label 20/34 for class ID: 70, NAME: end table 0.29
+[2025-11-24 11:49:44,202][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=148, g=207, b=26) at bottom_right corner
+[2025-11-24 11:49:44,202][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (393, 579, 468, 590)
+[2025-11-24 11:49:44,202][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'cabinet 0.28': width=61, height=7
+[2025-11-24 11:49:44,202][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 21/34 with class ID: 29, NAME: 
+[2025-11-24 11:49:44,202][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (727, 230, 792, 241).
+[2025-11-24 11:49:44,202][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,202][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 21/34 with class ID: 29, NAME: 
+[2025-11-24 11:49:44,202][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_right corner at (754, 230, 819, 241).
+[2025-11-24 11:49:44,202][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,202][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 21/34 with class ID: 29, NAME: 
+[2025-11-24 11:49:44,202][DEBUG][m:vis][fn:find_label_position][ln:445] - At bottom_right corner at (754, 360, 819, 371).
+[2025-11-24 11:49:44,202][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,202][DEBUG][m:vis][fn:annotate][ln:496] - Label 21/34 for class ID: 29, NAME: cabinet 0.28
+[2025-11-24 11:49:44,202][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=64, g=222, b=138) at bottom_right corner
+[2025-11-24 11:49:44,203][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (754, 360, 819, 371)
+[2025-11-24 11:49:44,203][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'end table 0.28': width=71, height=7
+[2025-11-24 11:49:44,203][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 22/34 with class ID: 70, NAME: 
+[2025-11-24 11:49:44,203][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (727, 230, 802, 241).
+[2025-11-24 11:49:44,203][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,203][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 22/34 with class ID: 70, NAME: 
+[2025-11-24 11:49:44,203][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_right corner at (745, 230, 820, 241).
+[2025-11-24 11:49:44,203][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,203][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 22/34 with class ID: 70, NAME: 
+[2025-11-24 11:49:44,203][DEBUG][m:vis][fn:find_label_position][ln:445] - At bottom_right corner at (745, 361, 820, 372).
+[2025-11-24 11:49:44,203][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,203][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 22/34 with class ID: 70, NAME: 
+[2025-11-24 11:49:44,203][DEBUG][m:vis][fn:find_label_position][ln:445] - At bottom_left corner at (727, 361, 802, 372).
+[2025-11-24 11:49:44,203][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,203][DEBUG][m:vis][fn:find_label_position][ln:451] - NO VIABLE POSITION for label 22/34 with class ID: 70, NAME: 
+[2025-11-24 11:49:44,203][DEBUG][m:vis][fn:annotate][ln:496] - Label 22/34 for class ID: 70, NAME: end table 0.28
+[2025-11-24 11:49:44,203][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=148, g=207, b=26) at bottom_left corner
+[2025-11-24 11:49:44,203][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (727, 361, 802, 372)
+[2025-11-24 11:49:44,203][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'lamp 0.25': width=50, height=7
+[2025-11-24 11:49:44,203][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 23/34 with class ID: 92, NAME: 
+[2025-11-24 11:49:44,203][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (234, 273, 288, 284).
+[2025-11-24 11:49:44,203][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,203][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 23/34 with class ID: 92, NAME: 
+[2025-11-24 11:49:44,203][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_right corner at (356, 273, 410, 284).
+[2025-11-24 11:49:44,203][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,203][DEBUG][m:vis][fn:annotate][ln:496] - Label 23/34 for class ID: 92, NAME: lamp 0.25
+[2025-11-24 11:49:44,203][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=64, g=222, b=138) at top_right corner
+[2025-11-24 11:49:44,203][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (356, 273, 410, 284)
+[2025-11-24 11:49:44,203][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'dresser 0.23': width=61, height=7
+[2025-11-24 11:49:44,203][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 24/34 with class ID: 67, NAME: 
+[2025-11-24 11:49:44,204][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (727, 230, 792, 241).
+[2025-11-24 11:49:44,204][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,204][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 24/34 with class ID: 67, NAME: 
+[2025-11-24 11:49:44,204][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_right corner at (754, 230, 819, 241).
+[2025-11-24 11:49:44,204][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,204][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 24/34 with class ID: 67, NAME: 
+[2025-11-24 11:49:44,204][DEBUG][m:vis][fn:find_label_position][ln:445] - At bottom_right corner at (754, 360, 819, 371).
+[2025-11-24 11:49:44,204][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,204][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 24/34 with class ID: 67, NAME: 
+[2025-11-24 11:49:44,204][DEBUG][m:vis][fn:find_label_position][ln:445] - At bottom_left corner at (727, 360, 792, 371).
+[2025-11-24 11:49:44,204][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,204][DEBUG][m:vis][fn:find_label_position][ln:451] - NO VIABLE POSITION for label 24/34 with class ID: 67, NAME: 
+[2025-11-24 11:49:44,204][DEBUG][m:vis][fn:annotate][ln:496] - Label 24/34 for class ID: 67, NAME: dresser 0.23
+[2025-11-24 11:49:44,204][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=255, g=182, b=51) at bottom_left corner
+[2025-11-24 11:49:44,204][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (727, 360, 792, 371)
+[2025-11-24 11:49:44,204][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'closet door 0.20': width=80, height=7
+[2025-11-24 11:49:44,204][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 25/34 with class ID: 40, NAME: 
+[2025-11-24 11:49:44,204][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (455, 0, 539, 11).
+[2025-11-24 11:49:44,204][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,204][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 25/34 with class ID: 40, NAME: 
+[2025-11-24 11:49:44,204][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_right corner at (502, 0, 586, 11).
+[2025-11-24 11:49:44,204][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,204][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 25/34 with class ID: 40, NAME: 
+[2025-11-24 11:49:44,204][DEBUG][m:vis][fn:find_label_position][ln:445] - At bottom_right corner at (502, 369, 586, 380).
+[2025-11-24 11:49:44,204][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,204][DEBUG][m:vis][fn:annotate][ln:496] - Label 25/34 for class ID: 40, NAME: closet door 0.20
+[2025-11-24 11:49:44,204][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=255, g=151, b=202) at bottom_right corner
+[2025-11-24 11:49:44,204][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (502, 369, 586, 380)
+[2025-11-24 11:49:44,204][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'telephone 0.20': width=72, height=7
+[2025-11-24 11:49:44,204][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 26/34 with class ID: 173, NAME: 
+[2025-11-24 11:49:44,205][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (401, 138, 477, 149).
+[2025-11-24 11:49:44,205][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,205][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 26/34 with class ID: 173, NAME: 
+[2025-11-24 11:49:44,205][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_right corner at (365, 138, 441, 149).
+[2025-11-24 11:49:44,205][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,205][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 26/34 with class ID: 173, NAME: 
+[2025-11-24 11:49:44,205][DEBUG][m:vis][fn:find_label_position][ln:445] - At bottom_right corner at (365, 190, 441, 201).
+[2025-11-24 11:49:44,205][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,205][DEBUG][m:vis][fn:annotate][ln:496] - Label 26/34 for class ID: 173, NAME: telephone 0.20
+[2025-11-24 11:49:44,205][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=209, g=212, b=53) at bottom_right corner
+[2025-11-24 11:49:44,205][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (365, 190, 441, 201)
+[2025-11-24 11:49:44,205][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'shelf 0.16': width=49, height=7
+[2025-11-24 11:49:44,205][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 27/34 with class ID: 146, NAME: 
+[2025-11-24 11:49:44,205][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (727, 230, 780, 241).
+[2025-11-24 11:49:44,205][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,205][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 27/34 with class ID: 146, NAME: 
+[2025-11-24 11:49:44,205][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_right corner at (767, 230, 820, 241).
+[2025-11-24 11:49:44,205][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,205][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 27/34 with class ID: 146, NAME: 
+[2025-11-24 11:49:44,205][DEBUG][m:vis][fn:find_label_position][ln:445] - At bottom_right corner at (767, 358, 820, 369).
+[2025-11-24 11:49:44,205][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,205][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 27/34 with class ID: 146, NAME: 
+[2025-11-24 11:49:44,205][DEBUG][m:vis][fn:find_label_position][ln:445] - At bottom_left corner at (727, 358, 780, 369).
+[2025-11-24 11:49:44,205][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,205][DEBUG][m:vis][fn:find_label_position][ln:451] - NO VIABLE POSITION for label 27/34 with class ID: 146, NAME: 
+[2025-11-24 11:49:44,205][DEBUG][m:vis][fn:annotate][ln:496] - Label 27/34 for class ID: 146, NAME: shelf 0.16
+[2025-11-24 11:49:44,205][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=255, g=57, b=201) at bottom_left corner
+[2025-11-24 11:49:44,205][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (727, 358, 780, 369)
+[2025-11-24 11:49:44,205][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'wall 0.15': width=44, height=7
+[2025-11-24 11:49:44,206][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 28/34 with class ID: 191, NAME: 
+[2025-11-24 11:49:44,206][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (0, 0, 48, 11).
+[2025-11-24 11:49:44,206][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,206][DEBUG][m:vis][fn:annotate][ln:496] - Label 28/34 for class ID: 191, NAME: wall 0.15
+[2025-11-24 11:49:44,206][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=255, g=161, b=160) at top_left corner
+[2025-11-24 11:49:44,206][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (0, 0, 48, 11)
+[2025-11-24 11:49:44,206][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'poster 0.14': width=56, height=7
+[2025-11-24 11:49:44,206][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 29/34 with class ID: 130, NAME: 
+[2025-11-24 11:49:44,206][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (0, 200, 60, 211).
+[2025-11-24 11:49:44,206][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,206][DEBUG][m:vis][fn:annotate][ln:496] - Label 29/34 for class ID: 130, NAME: poster 0.14
+[2025-11-24 11:49:44,206][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=255, g=182, b=51) at top_left corner
+[2025-11-24 11:49:44,206][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (0, 200, 60, 211)
+[2025-11-24 11:49:44,206][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'wall 0.13': width=44, height=7
+[2025-11-24 11:49:44,206][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 30/34 with class ID: 191, NAME: 
+[2025-11-24 11:49:44,206][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (580, 0, 628, 11).
+[2025-11-24 11:49:44,206][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,206][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 30/34 with class ID: 191, NAME: 
+[2025-11-24 11:49:44,206][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_right corner at (1151, 0, 1199, 11).
+[2025-11-24 11:49:44,206][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,206][DEBUG][m:vis][fn:annotate][ln:496] - Label 30/34 for class ID: 191, NAME: wall 0.13
+[2025-11-24 11:49:44,206][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=255, g=161, b=160) at top_right corner
+[2025-11-24 11:49:44,206][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (1151, 0, 1199, 11)
+[2025-11-24 11:49:44,206][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'plate 0.12': width=50, height=7
+[2025-11-24 11:49:44,206][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 31/34 with class ID: 128, NAME: 
+[2025-11-24 11:49:44,206][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (390, 450, 444, 461).
+[2025-11-24 11:49:44,206][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,206][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 31/34 with class ID: 128, NAME: 
+[2025-11-24 11:49:44,207][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_right corner at (392, 450, 446, 461).
+[2025-11-24 11:49:44,207][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,207][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 31/34 with class ID: 128, NAME: 
+[2025-11-24 11:49:44,207][DEBUG][m:vis][fn:find_label_position][ln:445] - At bottom_right corner at (392, 499, 446, 510).
+[2025-11-24 11:49:44,207][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,207][DEBUG][m:vis][fn:annotate][ln:496] - Label 31/34 for class ID: 128, NAME: plate 0.12
+[2025-11-24 11:49:44,207][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=255, g=161, b=160) at bottom_right corner
+[2025-11-24 11:49:44,207][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (392, 499, 446, 510)
+[2025-11-24 11:49:44,207][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'cabinet 0.12': width=61, height=7
+[2025-11-24 11:49:44,207][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 32/34 with class ID: 29, NAME: 
+[2025-11-24 11:49:44,207][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (808, 258, 873, 269).
+[2025-11-24 11:49:44,207][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,207][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 32/34 with class ID: 29, NAME: 
+[2025-11-24 11:49:44,207][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_right corner at (914, 258, 979, 269).
+[2025-11-24 11:49:44,207][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,207][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 32/34 with class ID: 29, NAME: 
+[2025-11-24 11:49:44,207][DEBUG][m:vis][fn:find_label_position][ln:445] - At bottom_right corner at (914, 388, 979, 399).
+[2025-11-24 11:49:44,207][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,207][DEBUG][m:vis][fn:annotate][ln:496] - Label 32/34 for class ID: 29, NAME: cabinet 0.12
+[2025-11-24 11:49:44,207][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=64, g=222, b=138) at bottom_right corner
+[2025-11-24 11:49:44,207][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (914, 388, 979, 399)
+[2025-11-24 11:49:44,207][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'power outlet 0.12': width=85, height=7
+[2025-11-24 11:49:44,207][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 33/34 with class ID: 132, NAME: 
+[2025-11-24 11:49:44,207][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (401, 138, 490, 149).
+[2025-11-24 11:49:44,207][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,207][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 33/34 with class ID: 132, NAME: 
+[2025-11-24 11:49:44,207][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_right corner at (352, 138, 441, 149).
+[2025-11-24 11:49:44,207][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,207][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 33/34 with class ID: 132, NAME: 
+[2025-11-24 11:49:44,207][DEBUG][m:vis][fn:find_label_position][ln:445] - At bottom_right corner at (352, 191, 441, 202).
+[2025-11-24 11:49:44,207][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,208][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 33/34 with class ID: 132, NAME: 
+[2025-11-24 11:49:44,208][DEBUG][m:vis][fn:find_label_position][ln:445] - At bottom_left corner at (401, 191, 490, 202).
+[2025-11-24 11:49:44,208][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,208][DEBUG][m:vis][fn:find_label_position][ln:451] - NO VIABLE POSITION for label 33/34 with class ID: 132, NAME: 
+[2025-11-24 11:49:44,208][DEBUG][m:vis][fn:annotate][ln:496] - Label 33/34 for class ID: 132, NAME: power outlet 0.12
+[2025-11-24 11:49:44,208][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=76, g=251, b=18) at bottom_left corner
+[2025-11-24 11:49:44,208][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (401, 191, 490, 202)
+[2025-11-24 11:49:44,208][DEBUG][m:vis][fn:annotate][ln:486] - Calculated text dimensions for 'coffee table 0.11': width=84, height=7
+[2025-11-24 11:49:44,208][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 34/34 with class ID: 48, NAME: 
+[2025-11-24 11:49:44,208][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_left corner at (314, 448, 402, 459).
+[2025-11-24 11:49:44,208][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: True
+[2025-11-24 11:49:44,208][DEBUG][m:vis][fn:find_label_position][ln:444] - Checking label 34/34 with class ID: 48, NAME: 
+[2025-11-24 11:49:44,208][DEBUG][m:vis][fn:find_label_position][ln:445] - At top_right corner at (468, 448, 556, 459).
+[2025-11-24 11:49:44,208][DEBUG][m:vis][fn:find_label_position][ln:446] - Collision flag: False
+[2025-11-24 11:49:44,208][DEBUG][m:vis][fn:annotate][ln:496] - Label 34/34 for class ID: 48, NAME: coffee table 0.11
+[2025-11-24 11:49:44,208][DEBUG][m:vis][fn:annotate][ln:497] - drawn with background color Color(r=76, g=251, b=18) at top_right corner
+[2025-11-24 11:49:44,208][DEBUG][m:vis][fn:annotate][ln:498] - with bounding box (468, 448, 556, 459)
+[2025-11-24 11:49:44,476][WARNING][m:optional_rerun_wrapper][fn:orr_log_vlm_image][ln:132] - VLM image not found at path: /home/pchy0316/dataset/my_local_data/Replica/room0/exps/s_detections_stride10/vis/frame000000annotated_for_vlm.jpg
+[2025-11-24 11:49:44,476][WARNING][m:optional_rerun_wrapper][fn:orr_log_vlm_image][ln:132] - VLM image not found at path: /home/pchy0316/dataset/my_local_data/Replica/room0/exps/s_detections_stride10/vis/frame000000annotated_for_vlm_w_edges.jpg
+[2025-11-24 11:49:44,812][DEBUG][m:optional_wandb_wrapper][fn:method][ln:139] - Skipping optional wandb call to 'log' because wandb usage is disabled.

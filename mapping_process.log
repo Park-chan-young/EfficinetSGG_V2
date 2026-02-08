@@ -1,0 +1,4 @@
+2026-02-08 15:37:43,034 - INFO - Loading faiss with AVX2 support.
+2026-02-08 15:37:43,277 - INFO - Successfully loaded faiss with AVX2 support.
+2026-02-08 15:37:43,706 - DEBUG - Setting JobRuntime:name=UNKNOWN_NAME
+2026-02-08 15:37:43,706 - DEBUG - Setting JobRuntime:name=rerun_realtime_for_replica
